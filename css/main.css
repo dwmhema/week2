@@ -1,0 +1,77 @@
+.roundedbutton {
+  boder-radius: 10px;
+  background: #3498db;
+  color: #fff;
+}
+.fontstyle {
+  font-size: 16px;
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
+  color: #ccc;
+  font-weight: 300;
+  text-decoration: underline;
+  line-height: 42px;
+}
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 24px;
+}
+body {
+  font-size: 16px;
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
+  color: #ccc;
+  font-weight: 300;
+  text-decoration: underline;
+  line-height: 42px;
+}
+header {
+  background: #124364;
+  width: 1200px;
+}
+header nav {
+  background: red;
+}
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+header nav ul li {
+  margin-right: 15px;
+  display: inline;
+}
+header nav ul li:last-child {
+  margin-right: 0px;
+}
+header nav ul li:nth-child(2) {
+  color: red;
+}
+a {
+  color: #000;
+}
+a:hover {
+  text-decoration: none;
+}
+section {
+  width: 1200px;
+  background: grey;
+}
+section article header {
+  width: 400px;
+  background: green;
+}
+section article header h2 {
+  font-size: 32;
+}
+section article p button[type="submit"] {
+  boder-radius: 10px;
+  background: #3498db;
+  color: #fff;
+  padding: 5px 2px;
+}
+footer .mysquare {
+  width: 150px;
+  height: 150px;
+  background: #378;
+}

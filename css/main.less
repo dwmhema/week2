@@ -1,0 +1,108 @@
+
+@blue:#3498db;
+@basefont:16px;
+
+.square(@size){
+	width:@size;
+	height:@size;
+}
+
+.roundedbutton {
+	boder-radius:10px;
+	background:@blue;
+	color:#fff;
+}
+
+.fontstyle {
+	font-size:@basefont;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
+	color:#ccc;
+	font-weight:300;
+	text-decoration:underline;
+	line-height:42px;
+}
+
+h1 {
+
+	font-size:@basefont * 5;
+}
+
+h2 {
+
+	font-size:@basefont*1.5;
+}
+body {
+	font-size:@basefont;
+	.fontstyle;
+}
+
+header {
+	background:darken(#3498db, 30%);
+	width:1200px;
+	nav {
+		background:red;
+
+		ul {
+
+			list-style-type:none;
+			margin:0;
+			padding:0;
+
+			li {
+				margin-right:15px;
+
+				display: inline;
+
+				&:last-child {
+				margin-right:0px;
+
+
+
+
+				}
+			&:nth-child(2){
+				color:red;
+
+			}
+			
+			}
+		}
+	}
+}
+
+a {
+	color:#000;
+	&:hover {
+	 text-decoration:none;
+	}
+}
+
+section{
+	width:1200px;
+	background:grey;
+	article {
+
+		header {
+			width:400px;
+			background:green;
+			h2{
+				font-size:32;
+
+			}
+		}
+		p {
+			button[type="submit"] {
+				.roundedbutton;
+				padding:5px 2px;
+			}
+		}
+
+	}
+}
+footer {
+	.mysquare {
+		.square(150px);
+		background:#378;
+
+	}
+}
